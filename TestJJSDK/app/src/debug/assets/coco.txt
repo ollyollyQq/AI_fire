@@ -1,0 +1,5 @@
+smoke
+fire_early
+fire_growth_period
+fire_peak_period
+fire_decline_period

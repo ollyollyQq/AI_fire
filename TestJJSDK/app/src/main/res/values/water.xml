@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinnerValue">
+        <item> 集會表演</item>
+        <item> 交通運輸</item>
+        <item> 娛樂場所</item>
+        <item> 商場百貨</item>
+        <item> 餐飲業</item>
+        <item> 旅館</item>
+        <item> 工廠</item>
+        <item> 健身休閒</item>
+        <item> 文教設施(書架區)</item>
+        <item> 文教設施(圖書館)</item>
+        <item> 小學校舍</item>
+        <item> 大學</item>
+        <item> 補教</item>
+        <item> 醫療照護</item>
+        <item> 金融證券</item>
+        <item> 辦公場所</item>
+        <item> 店鋪</item>
+        <item> 店鋪(書店)</item>
+        <item> 宿舍</item>
+        <item> 住宅</item>
+    </string-array>
+    <string-array name="spinnerValue2">
+        <item> 1</item>
+        <item> 2</item>
+        <item> 3</item>
+        <item> 4</item>
+        <item> 5</item>
+        <item> 6</item>
+        <item> 7</item>
+        <item> 8</item>
+        <item> 9</item>
+        <item> 10</item>
+    </string-array>
+    <string-array name="array">
+        <item> 1.閃燃前燃燒</item>
+        <item> 2.最盛期通風狀態下穩態燃燒</item>
+        <item> 3.最盛期通風及熱傳下燃燒</item>
+    </string-array>
+    <string-array name="fire">
+        <item></item>
+    </string-array>
+</resources>

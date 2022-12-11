@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    public class MyImageButton extends ImageButton {
+
+    private String text = null;
+    private int color;
+
+    public MyImageButton(Context context, AttributeSet attrs) {
+    super(context, attrs);
+    }
+
+    public void setText(String text){
+    this.text = text;
+    }
+
+    public void setColor(int color){
+    this.color = color;
+    }
+
+    <span style="color:#ff0000;">protected void onDraw(Canvas canvas)</span>{
+    super.onDraw(canvas);
+    Paint paint = new Paint();
+    paint.setTextAlign(Paint.Align.CENTER);
+    paint.setColor(color);
+    canvas.drawText(text, 15, 20, paint);
+    }
+    }
+</selector>
